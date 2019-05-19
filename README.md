@@ -1,15 +1,15 @@
-# Datenintensive Prozesse in der NA
+# Ein Lösch-Tool für persönliche Daten in der NA
 
 ## Einführung
-Die Nationale Agentur ist als DAAD-ähnliche Institution für den Bereich der Auszubildenden zuständig und fördert durch diverse Programme die Internationalierung und Mobilität in  der Berufsbilung. 
+Die Nationale Agentur ist ähnlich dem DAAD zuständig für den Bereich der Auslandsmobilität von Auszubildenden und Berufsbildungspersonal. Sie fördert durch diverse Programme die Internationalierung und Mobilität in  der Berufsbilung. 
+In der NA arbeiten verschiedene Fachteams mit mehreren Datenbanken, die vom Team „Finanzen und IT“ zentral verwaltet werden. Dazu gehören eine Datenbank mit E-Akten für das europaweite Programm Erasmus+ mit den Projektakten für jedes einzelne beantragte Mobilitätsvorhaben (Dateien, Prozesse, Verträge, Berichte, Monitoring, Beschwerden), das ständig mit der zentralen Datenbank der EU-Kommission synchronisiert wird, sowie das MySQL-basierte Förderportal Ausbildung Weltweit als Antragsportal für Projektträger. 
+Dazu kommen interne Datenbanken: die mit SAP verknüpfte Huel-Anwendung zur Finanzüberwachung, eine interne Gutachter-Datenbank zur Verwaltung und Bewertung von Fördergutachten, ein Aktivitäten-Tool für das interne Berichtswesen und Dokumentation in der NA, ein Reporting-Tool zur Erstellung von Berichten und statistischen Visualisierungen sowie das Extranet. Die NA arbeitet hauptsächlich mit SQL-Servern und Access-Oberflächen. 
 
 ## Ziel:
-Ein internes Tool für die Mitarbeiter/-innen, um aktuelle Daten zu laufenden Programme (Projektträger, Bearbeitungsstatus der Zuwendung, involvierte Sachbearbeiter/-innen und Gutachter/-innen, Kontaktdaten) oder auch hinterlegte Kennzahlen schnell und projekt- und teamübergreifend  aus allen bestehenden Datenbanken (der einzelnen Programme Erasmus+, IBS, Ausbildung Weltweit sowie Easy Online des BMBF,...) zu extrahieren. Wichtig ist die ständige Aktualisierung und Anpassung der Daten. Die einzelnen Quell-Datenbanken sind zu komplex, nicht alle Mitarbeiter/-innen sind damit vertraut. Im Vordergrund soll auch eine Art Lösch-Tracker stehen, der die Mitarbeiter/-innen an die fristgemäße Löschung personenbezogener Daten erinnert, wenn die automatisch erkannte Frist für das Projektende und das Ablaufen der Aufbewahrungspflicht eintritt.
+Es soll ein internes Tool erstellt werden, mit dem sich die Einhaltung der neuen Datenschutz-Grundverordnung effizient und zeitsparend umsetzen lässt. Derzeit müssen von allen Projektteams Verfahrensbeschreibungen für die Verarbeitung persönlicher Daten erstellt werden, z.B. der Zuwendungsempfänger/-Innen, Teilnehmer/-Innen, Gutachter/-Innen, Dolmetscher/-Innen usw. Die einzelnen Quell-Datenbanken sind zu komplex, nicht alle Mitarbeiter/-innen sind damit vertraut. Außerdem ist die ständige manuelle Prüfung der zu löschenden Daten mit einem hohen Aufwand verbunden und sehr fehlerbehaftet.  Daher soll ein Lösch-Tracker erstellt werden, der auf die Informationen in  allen Datenbanken zugreift und die Mitarbeiter/-Innen an die fristgemäße Löschung personenbezogener Daten erinnert, wenn die automatisch erkannte Frist für das Projektende und das Ablaufen der Aufbewahrungspflicht eintritt. Dabei gibt es verschiedene Kategorien von Daten. Nicht mehr benötigte Daten (z.B. Geburtsdaten, Reisepass-Nummern,…) müssen unmittelbar nach der Beendung einer Aktivität gelöscht werden. Zahlungsrelevante Daten müssen zum Zweck der Rechnungsprüfung für eine Dauer von 10 Jahren archiviert werden. Darüber hinaus kann die Zustimmung zur  Speicherung inhaltlich relevanter Daten, z.B. Kontaktinformationen und Fachexpertise, bei den betreffenden Personen abgefragt werden, sodass diese Daten zum Zweck zukünftiger Aktivitäten erhalten bleiben. 
 
-## Bearbeitungsstand
-Derzeit bin ich in der NA unterwegs, um mir die betreffenden Datenbanken erklären zu lassen und herauszufinden, wo datenintensive Prozesse optimiert werden können und ob meine o.g. Idee sinnvoll ist.
-
-## Diskussion
+## Umsetzung
+In Zusammenarbeit mit dem IT-Team der NA besteht eine gute Chance, dass diese Idee auch praktisch umgesetzt wird. 
 
 
 
